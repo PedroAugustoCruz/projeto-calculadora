@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora-Notas</title>
+    <link rel="stylesheet" href="/home/pedro/workspace/projetos-pessoais/calculador-de-notas/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item"><img src="https://img.icons8.com/material-sharp/24/000000/playstation-buttons--v2.png"/> </li>    
+          <li class="nav-item"><a href="#">Início</a></li>
+          <li class="nav-item"><a href="#">Sobre</a></li>
+          <li class="nav-item"><a href="#">Projetos</a></li>
+          <li class="nav-item"><a href="#">Desenvolvedor</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="wrapper">
+    <main class="projeto">
+        <div class="projeto-div">
+          <h1 id="h1-projeto">Projeto</h1>
+            <p id="p-projeto">Este projeto foi feito com entuito de aprender mais sobre javascript, css e html</p>  
+        </div>    
+        <div class="calculadora">
+          <h1>Calculadora</h1>
+            <input class="input"type="text" id="txtValor1">
+              <select class="input" id="operadores" onchange="ControleDeSelecao();">
+                <optgroup label="Basico">
+                  <option value="+">	+(somar)</option>
+                  <option value="-">	-(subtrair)</option>
+                  <option value="*">	*(multiplicar)</option>
+                  <option value="/">	/(dividir)</option>
+                </optgroup>
+                <optgroup label="Outros">
+                  <option value="raiz">	 	  Raiz	</option>
+                  <option value="potencia">	Potência</option>
+                  <option value="fatorial">	Fatorial</option>
+                  <option value="fibonacci">Fibonaci</option>					
+                  <option value="porcento">	Porcentagem</option>
+                  <option value="media">		Média</option>
+                  <option value="calc">		  Develop Calc</option>
+                </optgroup>
+              </sebox-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);t class="input" type="text" id="txtValor2" size="5"><br>		
+            <input class="butao" type="button" onclick="Calcular('txtValor1', 'txtValor2')" value="Calcular">
+            <input class="butao" type="button" onclick="Limpar('txtValor1', 'txtValor2')" value="Limpar">
+            <p id="saida">Resultado:</p>
+            <hr>		
+        </div>
+        <div class="instrucoes">
+            <h3>Instruções para o uso da calculadora</h3>
+            <h5>A calculadora é capaz de fazer calculo de </h5>
+            <ul class="lista-instrucoes">
+              <li class="elementos-instrucoes">soma </li>
+              <li>multiplicação</li>
+              <li>divisão</li>
+              <li>subtração</li>
+              <li>potência</li>
+              <li>Raiz</li>
+              <li>fatorial</li>
+              <li>Média</li>
+            </ul>
+        </div>
+    </main>
+    <footer class="footer">
+      <h3>Desenvolvedor</h3>
+       <p>Olá meu nome é Pedro Augusto e estou desenvolvendo este projeto para praticar programação </p>
+    </footer>
+    <script src="/home/pedro/workspace/projetos-pessoais/calculador-de-notas/js/calculadora.js"></script>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color:  #ebedee;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  .wrapper main{
+    flex: 1;
+  }
+  
+
+  .nav-list{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    background-color:  white ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  .nav-item{
+    list-style: none;
+    margin-right: 2rem;
+    padding-top: 0.55rem;
+  }
+
+  .nav-item:first-child{
+    margin: auto;
+    margin-left: 2rem;
+  }
+
+  .nav-item a{
+    text-decoration: none;
+    color: black;
+   
+
+  }
+
+  .nav-item a:hover{
+    color: lawngreen;
+  }
+
+  .projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .calculadora{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem 1.6rem 1.6rem 1.6rem;
+    border-radius: .7rem;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+
+ 
+  .input{
+    padding: .25rem;
+    margin: .45rem .45rem 0 0 ;
+    border: 0;
+    border-radius: .5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  }
+
+.butao {
+  background-color: #FFFFFF;
+  border: 0;
+  margin: .45rem .45rem 0 0 ;
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: .875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: .75rem 1rem;
+  text-align: center;
+  text-decoration: none #D1D5DB solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.butao:hover {
+  background-color: rgb(249,250,251);
+}
+
+.butao:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.butao:focus-visible {
+  box-shadow: none;
+}
+
+#saida{
+  margin-top: .45rem;
+}
+
+.instrucoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.lista-instrucoes{
+  margin-right: 10rem;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.elementos-instrucoes{
+  text-decoration: none;
+}
+
+.projeto{
+  padding-top: 1.6rem;
+}
+
+.projeto-div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0  1rem 1rem 1rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
